@@ -1,0 +1,30 @@
+<div class="container center" *ngIf="articleData">
+
+  <div class="col"></div>
+  <div class="col-12 ">
+
+      <h1 style="text-align:center ">{{articleData[0].title}} </h1>
+
+
+      <p>"{{articleData[0].art}}"</p>
+      <div class="row">
+      <div class="col"></div>
+      <div class="col">
+        <a href="{{articleData[0].link}}" class="btn btn-danger"><i class="bi bi-youtube"></i> Watch Video</a>
+
+      </div>
+      <div class="col"></div>
+      </div>
+
+
+      <img class="media"src="{{articleData[0].articleImage}}" />
+
+
+
+  </div>
+  <div class="col"></div>
+</div>
+
+
+
+
